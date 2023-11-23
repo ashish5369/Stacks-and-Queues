@@ -1,4 +1,3 @@
-
 import java.util.*;
 
 //if we have correct closing and open brackets
@@ -34,12 +33,14 @@ public class balancedBrackets {
 
             }
         }
+
         if (st.size() == 0) {
             System.out.println(true);
 
         } else {
             System.out.println(false);
         }
+
     }
 
     public static boolean handleClosing(Stack<Character> st, char cooreoch) {
